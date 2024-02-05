@@ -10,14 +10,14 @@ function generateHTML(key, code, keyCode) {
   </div>
   
     <div class="key-container">
-    <h4>Key</h4>
+    <h4>Code</h4>
     <div class="key-container_content">
       ${code}
     </div>
   </div>
   
     <div class="key-container">
-    <h4>Key</h4>
+    <h4>Key Code</h4>
     <div class="key-container_content">
       ${keyCode}
     </div>
