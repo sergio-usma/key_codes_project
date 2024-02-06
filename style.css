@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,7 +14,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 2rem;
   font-family: sans-serif;
@@ -20,7 +22,24 @@ body {
   font-size: 2rem;
   text-align: center;
   color: #fff;
-  background: linear-gradient(to right, #2e1e4f, #47135e);
+
+  /* background: linear-gradient(to right, #2e1e4f, #47135e); */
+  background: url("./dream-mount-bg.png") no-repeat top center/cover;
+}
+
+header {
+  width: 100%;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: center;
+  background: black;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3.6rem;
+  color: #fff;
 }
 
 .container {
@@ -66,4 +85,20 @@ body {
   left: 0;
   text-align: center;
   width: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 5rem;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: center;
+  background: black;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
 }
