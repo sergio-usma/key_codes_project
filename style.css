@@ -22,8 +22,6 @@ body {
   font-size: 2rem;
   text-align: center;
   color: #fff;
-
-  /* background: linear-gradient(to right, #2e1e4f, #47135e); */
   background: url("./dream-mount-bg.png") no-repeat top center/cover;
 }
 
@@ -98,6 +96,7 @@ footer {
 }
 
 footer a {
+  font-family: "Great Vibes", cursive;
   color: #fff;
   text-decoration: none;
   font-weight: 700;
